@@ -2,6 +2,9 @@
 HelpMateAI Project Documentation
 Project goals
 In this project we are given an insurance policy document and the goal is to build a RAG-LLM based response engine that can retrieve the right information for any query on the insurance policy from the document provided. Policy document is a 64-page pdf file. It is very hard for any individual to go over the entire document and be able to remember all the details. The response engine provides a conversational interface to get the right information accurately and quickly.
+
+![image](https://github.com/user-attachments/assets/0ef47292-16d0-4aa2-924b-e16e69d929a4)
+
 Data Sources
 Principal-Sample-Life-Insurance-Policy.pdf : is the policy document in pdf format that is the source of truth. This policy document this document needs to be processed, cleaned and chunked for embeddings.
 ChromaDB: is used to store embeddings, documents and metadata. This helps is quick semantic searches. Caching layer is implemented for better performance for repeated queries. 
